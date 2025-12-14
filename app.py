@@ -22,7 +22,7 @@ load_dotenv()
 
 # Page configuration
 st.set_page_config(
-    page_title="Tech Interview Practice",
+    page_title="Ai Interview Practice",
     page_icon="💻",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -860,7 +860,7 @@ def show_practice():
             st.rerun()
 
 def show_home():
-    st.title("💻 Tech Interview Practice Platform")
+    st.title("💻 Ai Interview Practice Platform")
     
     col1, col2 = st.columns([2, 1])
     
