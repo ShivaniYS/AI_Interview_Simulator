@@ -37,7 +37,7 @@ api_configured = False
 try:
     if 'OPENAI_API_KEY' in st.secrets:
         api_key = st.secrets['OPENAI_API_KEY']
-        st.success("✅ API key loaded from Streamlit secrets")
+       
 except:
     pass
 
