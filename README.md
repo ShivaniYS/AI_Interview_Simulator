@@ -1,5 +1,4 @@
-# 🎤 Ai Interview Practice Platform
-
+# 💻 Ai Interview Simulator
 An AI-powered voice-based interview practice platform that helps you prepare for technical interviews by recording and evaluating your spoken answers.
 
 
