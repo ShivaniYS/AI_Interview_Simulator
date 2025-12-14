@@ -71,7 +71,7 @@ if api_key and api_key.startswith("sk-") and openai_available:
         st.session_state.openai_client = openai_client
         st.session_state.api_configured = True
         if 'api_key_input' not in st.session_state:
-            st.success("✅ OpenAI API configured successfully!")
+            
     except Exception as e:
         st.error(f"OpenAI API configuration failed: {str(e)[:100]}")
         api_configured = False
